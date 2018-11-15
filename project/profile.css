@@ -1,0 +1,200 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+	font-family: calibri;
+	background: #e4e4e4;
+}
+
+.btn {
+	margin: 5px;
+	background: #5F9EA0;
+	box-shadow: 3px;
+	padding: 5px;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.btn:hover{
+	background:#808080;
+}
+
+.btn:active{
+	background:#333;
+}
+
+.ganti_foto{
+	display: none;
+	position: absolute;
+  	z-index: 1;
+	top: 56%;
+	left: 62%;
+	width: 180px;
+	height: 80px;
+	background: #f4f4f4;
+	border: 1px solid gray;
+	border-radius: 3px;
+}
+
+.gambar:hover + .ganti_foto{
+	display: block;
+}
+
+.nav{
+	position: fixed;
+	overflow: hidden;
+	background: #5F9EA0;
+	top: 0;
+	width: 100%;
+	}
+	
+.nav a{
+	float: right;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	}
+	
+.name{
+	float: right;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	}
+	
+.top{
+	margin-left: 24%;
+	margin-right: 24%;
+	background: #f4f4f4;
+	border: 1px solid gray;
+	border-radius: 3px;
+}
+
+.fotter{
+	padding: 14px 10px;
+	font-family: calibri;
+}
+
+.hotel{
+	display: inline-block;
+	text-align: left;
+}
+
+.price{
+	display: inline-block;
+	float: right;
+}
+
+.host_info{
+	float: left;
+	width: 200px;
+	background: #f4f4f4;
+	border: 1px solid gray;
+	border-radius: 3px;
+	margin-top: 5px;
+	margin-left: 24%;
+	margin-bottom: 5px;
+}
+
+.host_info span, strong{
+	padding: 5px;
+}
+
+.right_part{
+	display: inline-block;
+	margin-right: 24%;
+	margin-top: 5px;
+	float: right;
+}
+
+.comment_sect{
+	border: 1px solid gray;
+	border-radius: 3px;
+	width: 495px;
+	background: #f4f4f4;
+	margin-bottom: 15px;	
+}
+
+.comment_sect textarea{
+	margin-left: 5px;
+	width: 482px;
+	height: 100px;
+	resize: none;
+}
+
+.comment_output{
+	margin-top: 5px;
+	width: 495px;
+	background: #f4f4f4;
+	border: 1px solid gray;
+	border-radius: 3px;
+}
+
+
+.date{
+	margin: 5px;
+	float: right;
+}
+
+.message{
+	word-wrap: break-word;
+	border: 1px solid #c0c0c0;
+	margin: 5px;
+	background: #fff;
+	width: 482px;
+}
+
+.noComment{
+	margin: 50px;
+	text-align: center;
+	display: block;
+}
+
+.edit_price{
+	display: none;
+	position: fixed;
+  	z-index: 1;
+  	top: 0;
+  	left: 0;
+  	height: 100%;
+  	width: 100%;
+  	background-color: rgba(0,0,0,0.3);
+}
+
+.edit_price_body{
+	margin-top: 20%;
+	margin-left: 42%;
+	width: 250px;
+	height: 98px;
+	background: #f4f4f4;
+	border: 1px solid gray;
+	border-radius: 3px;
+}
+
+.closeBtn{
+  color:#ccc;
+  float: right;
+  font-size:30px;
+  color:#e1e1e1;
+}
+
+.closeBtn:hover,.closeBtn:focus{
+  color:#000;
+  text-decoration: none;
+  cursor:pointer;
+}
+
+.error{
+	z-index: 1;
+	top: 2%;
+	margin-left: 45%;
+	position: fixed;
+}
