@@ -1,2 +1,2 @@
 # First-WebApp
-First web application group project
+First web application class group project
